@@ -19,10 +19,12 @@ import HelloWorld from './components/HelloWorld.vue'
 
   </header>
 
+  
+
   <RouterView />
 </template>
 
-<script></script>
+
 
 <style scoped>
 

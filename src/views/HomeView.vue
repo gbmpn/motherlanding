@@ -5,9 +5,10 @@
 <template>
   <main>
     <!-- <img alt="Vue logo" class="logo" src="@/assets/logo-secondary.svg"  /> -->
-    
+   
+		
     <section class="intro">
-      <img alt="bg" class="bg" src="@/assets/images/bg.jpg"  />
+      <img alt="bg" class="bg" src="@/assets/img/bg.jpg"  />
     
       <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1683.3555 826.2288">
     
