@@ -1,0 +1,114 @@
+// @import 'locomotive-scroll/src/locomotive-scroll.scss';
+@import "reset.scss";
+@import "grid.scss";
+@import "fonts.scss";
+
+// html, 
+// body {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     overflow-x: hidden;
+//     overflow-y: scroll;
+// }
+
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: black;
+}
+
+#app {
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    bottom: 25px;
+    left: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 20;
+    nav {
+        padding: 0 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav a {
+        color: white;
+        img {
+            width: 50px;
+        }
+    }
+
+    a,
+    p {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    a {
+        font-size: 1rem;
+        transition: 0.3s ease;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
+
+.intro {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    img.bg {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        object-fit: contain;
+        opacity: 0.5;
+        z-index: 1;
+        // clip-path: url(#myClip);
+        // mask-size: contain;
+    }
+    svg {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width: 768px) {
+        transform: scale(1.9);
+    }
+}
+
+#logo {
+    width: 50vw;
+}
+
+.viewport {
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+  

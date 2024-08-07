@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'univers_lt_std73BlkEx';
+    src: url('../fonts/wuniversltstd-blackex-webfont.woff2') format('woff2'),
+         url('../fonts/wuniversltstd-blackex-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'univers_lt_std53_extended';
+    src: url('../fonts/universltstd-ex-webfont.woff2') format('woff2'),
+         url('../fonts/universltstd-ex-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*,
+a { 
+    font-family: 'univers_lt_std53_extended' !important;
+    text-decoration: none;
+}
