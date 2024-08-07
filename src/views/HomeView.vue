@@ -5,7 +5,7 @@
 <template>
   <main>
     <!-- <img alt="Vue logo" class="logo" src="@/assets/logo-secondary.svg"  /> -->
-   
+    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 		
     <section class="intro">
       <img alt="bg" class="bg" src="@/assets/img/bg.jpg"  />

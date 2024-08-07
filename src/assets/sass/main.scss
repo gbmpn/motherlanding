@@ -66,6 +66,16 @@ header {
     }
 }
 
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 60px;
+    margin: 0 auto;
+    z-index: 10;
+}
 .intro {
     width: 100vw;
     height: 100vh;
